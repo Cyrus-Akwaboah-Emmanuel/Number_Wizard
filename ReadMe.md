@@ -11,7 +11,7 @@ This guess my number game is to help me navigate my journey through the land of 
 
 # **Screenshot**
 ![](./screenshot/desktop.png)
-![](./screenshot/mobile.png)
+![](./screenshot/mobile.jpeg)
 
 # **Built with**
 HTML
