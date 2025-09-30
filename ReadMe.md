@@ -13,6 +13,9 @@ This guess my number game is to help me navigate my journey through the land of 
 ![](./screenshot/desktop.png)
 ![](./screenshot/mobile.jpeg)
 
+# **Link**
+https://number-wizard.netlify.app/
+
 # **Built with**
 HTML
 CSS
