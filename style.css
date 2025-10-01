@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* primary colors */
+    --white-font: #ffff;
+    --black-font: #0000;
+    --red-font: #DD0303;
+    --cream-font: #FDEBD0;
+    --grey-font: #7A7A73;
+
+    /* secondary colors */
+    --dark-background: #0F0E0E;
+    --blue-background: #FFB22C;
+
+    /* font family */
+    --font-family: "Bungee Spice", sans-serif;
+    --font-family-body: "Roboto Mono", monospace;
+}
+
+html{font-size: 112.5%;}
+
+body{
+    background-color: var(--dark-background);
+    font-family: var(--font-family-body);
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.number-game > *{
+    margin: 1rem 0px;
+}
+
+.game-container{
+    height: 90vh;
+    margin-top: 1rem;
+    text-align: center;
+    border: 1px solid var(--blue-background);
+    font-family: var(--f);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+header h1{
+    color: var(--white-font);
+    background-color: var(--blue-background);
+}
+
+.hidden-number{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: var(--font-family);
+    color: var(--blue-background);
+}
+
+.instruction{
+    color: var(--blue-background);
+}
+
+input{
+    width: 220px;
+    padding: .5rem;
+    text-align: center;
+    border-radius: 50px;
+    font-family: var(--font-family-body);
+}
+
+.input-text p{
+    color: var(--cream-font);
+    font-size: .954rem;
+}
+
+.guessbtn-againbtn{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 150px;
+    padding: .4rem;
+    margin: .2rem 0px;
+    border-radius: 50px;
+    font-family: var(--font-family-body);
+}
+
+.attempts{
+    color: var(--grey-font);
+}
+
+@media(min-width: 768px){
+    .container{
+        width: 40%;
+        margin: 0 auto;
+    } 
+
+    .number-game > *{
+        margin: 3rem 0px;
+    }
+
+    .guessbtn-againbtn{
+        display: unset;
+    }
+ 
+    button{
+        width: 30%;
+        padding: .6em;
+        margin: unset;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    input{
+        width: 300px;
+        padding: .954rem;
+        font-size: .985rem;
+    }
+}
